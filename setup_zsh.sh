@@ -126,4 +126,5 @@ git clone https://github.com/romkatv/powerlevel10k $HOME/.oh-my-zsh/custom/theme
 powerline10k_config >> $HOME/.zshrc
 
 # Install nerdfont
-curl -O ~/.fonts https://github.com/ryanoasis/nerd-fonts/raw/master/patched-fonts/Hack/Regular/complete/Hack%20Regular%20Nerd%20Font%20Complete.ttf
+curl -O https://github.com/ryanoasis/nerd-fonts/raw/master/patched-fonts/Hack/Regular/complete/Hack%20Regular%20Nerd%20Font%20Complete.ttf
+mv ./Hack%20Regular%20Nerd%20Font%20Complete.ttf ~/.fonts
